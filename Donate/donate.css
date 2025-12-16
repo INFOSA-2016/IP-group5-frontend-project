@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0b1f4d;
+}
+
+.donate-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* LEFT FORM */
+.donate-left {
+    flex: 1;
+    background: #ffffff;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    background: #e3ecff;
+    padding: 5px;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.tab {
+    padding: 10px 25px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab.active {
+    background: #1865f2;
+    color: #fff;
+}
+
+.choose-text {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.select-box {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+/* AMOUNT GRID */
+.amount-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.amount {
+    padding: 15px;
+    background: #e8efff;
+    border: 1px solid #d0ddff;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.amount.active {
+    background: #1865f2;
+    color: white;
+}
+
+/* OTHER AMOUNT */
+.other-box {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    border: 1px solid #d0ddff;
+    background: #e8efff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.currency {
+    font-weight: bold;
+}
+
+.dollar {
+    text-align: center;
+    font-weight: bold;
+}
+
+.other-box input {
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+/* DEDICATE CHECKBOX */
+.dedicate {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* BUTTON */
+.donate-btn {
+    width: 100%;
+    padding: 15px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+/* RIGHT SIDE */
+.donate-right {
+    flex: 1;
+    color: white;
+    padding: 70px 40px;
+}
+
+.profile {
+    width: 280px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.donate-right h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.donate-right p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* ============================
+   LEARNERS FUND SECTION
+============================ */
+.learners-section {
+    padding: 60px 40px;
+    background: #f7efe4;
+    text-align: center;
+}
+
+.learners-title {
+    font-size: 36px;
+    font-family: "Georgia", serif;
+    margin-bottom: 10px;
+}
+
+.learners-desc {
+    font-size: 18px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    line-height: 1.6;
+}
+
+.learners-btn-box {
+    margin-bottom: 40px;
+}
+
+.learners-btn {
+    background: #1865f2;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.learners-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* CARD BASE */
+.card {
+    width: 330px;
+    height: 220px;
+    border-radius: 14px;
+    padding: 40px 25px;
+    text-align: left;
+    color: black;
+    font-family: Georgia, serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* CARD COLORS */
+.card.orange {
+    background: #ff8f5a;
+}
+
+.card.yellow {
+    background: #ffcf33;
+}
+
+.card.pink {
+    background: #e8c2d8;
+}
+
+/* CARD TEXT */
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.card h1 {
+    font-size: 38px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.donation-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tier-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tier-card h3 {
+    color: #000;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-style: italic; /* For the title style in the image */
+}
+
+.tier-card p {
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.tier-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.tier-card li {
+    color: #555;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.donate-button {
+    background-color: #007bff; /* A standard blue color */
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    display: block; /* Makes the button fill the width */
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+}
+
+.donate-button:hover {
+    background-color: hsl(212, 5%, 52%);
+}
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* To prevent horizontal scroll issues with absolute positioning */
+}
+
+.gift-match-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 5% 50px 10%; /* Adjust padding as needed */
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-content {
+    flex-basis: 45%;
+    max-width: 450px;
+    padding-top: 50px;
+}
+
+.italic-title {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.match-button {
+    background-color: #007bff; /* A blue color similar to the image */
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
+.image-gallery {
+    flex-basis: 50%;
+    position: relative;
+    height: 400px; /* Set a height for positioning the images */
+}
+
+/* Using simple divs to represent where images would be placed */
+.image-placeholder {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: #ccc; /* Placeholder background color */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1 {
+    transform: rotate(-10deg);
+    top: 50px;
+    left: 0;
+    /* In a real scenario, use background-image: url('image1.jpg'); */
+    background-color: #a0a0a0;
+}
+
+.img-2 {
+    transform: rotate(5deg);
+    top: 20px;
+    left: 100px;
+     /* In a real scenario, use background-image: url('image2.jpg'); */
+    background-color: #808080;
+}
+
+.img-3 {
+    transform: rotate(-3deg);
+    top: 80px;
+    left: 200px;
+     /* In a real scenario, use background-image: url('image3.jpg'); */
+    background-color: #606060;
+}
+
+.donate-monthly-button {
+    position: absolute;
+    bottom: 0px; /* Position relative to the bottom of the body/viewport */
+    right: 50px; /* Position relative to the right of the body/viewport */
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px; /* Pill shape */
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    box-shadow:#a0a0a0;
+}
+
+.heart-icon {
+    color: #ff0000; /* Red heart */
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+/* FAQ Section Styles */
+.faq-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #f7f7f7; /* Light gray background like the image */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.faq-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee; /* Light separator line */
+    padding: 15px 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; /* Indicates it can be clicked (for JS implementation) */
+}
+
+.faq-question h3 {
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+    color: #999;
+    /* This makes the caret point down when closed, and up when open (as shown in image) */
+    transform: rotate(0deg); 
+    transition: transform 0.3s ease;
+}
+
+/* Style for when the item is marked as 'open' */
+.faq-item.open .toggle-icon {
+    transform: rotate(180deg); 
+}
+
+.faq-answer {
+    /* Initially hidden via CSS if JS isn't used for toggling */
+    max-height: 1000px; 
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+/* If you want the items to start closed without JS, use this instead of the .open class styles above: */
+/* .faq-answer { display: none; } */
+
+.faq-answer p {
+    margin: 15px 0 0 0;
+    color: #555;
+    line-height: 1.4;
+}
+/* Note: The main .faq-container and .faq-item styles from the previous response are reused here. */
+
+/* Style for the inline "Donate Monthly" button within the last FAQ item */
+.donate-monthly-button-inline {
+    background-color: #000; /* Black background */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px; /* Pill shape */
+    font-size: 0.9rem;
+    display: inline-flex; /* Use inline-flex for alignment within text flow */
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.heart-icon-inline {
+    color: #ff0000; /* Red heart */
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.faq-answer a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.faq-answer a:hover {
+    text-decoration: underline;
+}
+/* Footer Styles */
+.site-footer {
+    background-color: #0d2d6c; /* Deep blue background color */
+    color: #fff;
+    padding: 40px 5% 15px 5%; /* Top/bottom padding for content, less for bottom line */
+    margin-top: 50px; /* Space above the footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ffffff33; /* Very light transparent white line */
+}
+
+.footer-left p, .footer-right p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent; /* Subtle hover effect setup */
+}
+
+.footer-link:hover {
+    border-color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-size: 0.8rem;
+    opacity: 0.8; 
+}
+
+.sign-in-link {
+    font-weight: bold;
+}
+
+.donate-monthly-fixed-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.heart-icon-fixed {
+    color: #ff0000;
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+

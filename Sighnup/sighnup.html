@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Khan Academy | Free Online Courses, Lessons & Practice</title>
+    <meta name="description" content="Sign up for Khan Academy - free online courses, lessons, and practice for learners, teachers, and parents">
+    <meta name="theme-color" content="#1865f2">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sighnup.css">
+    
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+    
+    <div class="signup-page-container" role="main">
+        <h1 class="visually-hidden">Sign up for Khan Academy</h1>
+        
+        <!-- Left Side: Illustration and Info -->
+        <div class="left-panel">
+            <div class="illustration-area">
+                <!-- Building/avatar illustration -->
+                <div class="illustration-placeholder" aria-label="Khan Academy learning illustration">
+                    <!-- The flag at the top right -->
+                    <div class="flag"></div>
+                    <!-- Learning avatars -->
+                    <div class="avatar top-left"></div>
+                    <div class="avatar top-right"></div>
+                    <div class="avatar bottom-right"></div>
+                    <div class="avatar bottom-left"></div>
+                </div>
+            </div>
+            <div class="text-content">
+                <h2>Join Khan Academy to activate your learning</h2>
+                <p>Create your account to access free courses, track your progress, and learn at your own pace.</p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-icon">🎯</span>
+                        <span>Personalized learning paths</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📊</span>
+                        <span>Progress tracking & reports</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏆</span>
+                        <span>Badges & achievements</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📱</span>
+                        <span>Mobile app access</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Sign-up Form -->
+        <div class="right-panel" id="main-content">
+            <div class="form-container">
+                <!-- Progress indicator -->
+                <div class="signup-progress" aria-label="Sign up progress">
+                    <div class="progress-steps">
+                        <div class="step active" aria-current="step">
+                            <span class="step-number">1</span>
+                            <span class="step-label">Account</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <span class="step-label">Profile</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <span class="step-label">Interests</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-fill" style="width: 33%"></div>
+                    </div>
+                </div>
+
+                <span class="main-title">Sign up</span>
+                <p class="form-subtitle">Join Khan Academy for free as a</p>
+
+                <!-- Role Selection -->
+                <div class="role-selector" role="radiogroup" aria-label="Select your role">
+                    <button type="button" class="role-button active" role="radio" aria-checked="true">
+                        <span class="role-icon">👨‍🎓</span>
+                        <span class="role-text">Learner</span>
+                        <span class="role-description">I want to learn</span>
+                    </button>
+                    <button type="button" class="role-button" role="radio" aria-checked="false">
+                        <span class="role-icon">👩‍🏫</span>
+                        <span class="role-text">Teacher</span>
+                        <span class="role-description">I teach students</span>
+                    </button>
+                    <button type="button" class="role-button" role="radio" aria-checked="false">
+                        <span class="role-icon">👨‍👩‍👧‍👦</span>
+                        <span class="role-text">Parent</span>
+                        <span class="role-description">I have children</span>
+                    </button>
+                </div>
+
+                <!-- Validation message area -->
+                <div aria-live="polite" aria-atomic="true" class="validation-message"></div>
+
+                <!-- Sign-up Form -->
+                <form class="signup-form" id="signup-form" action="#" method="POST">
+                    <div class="form-fields">
+                        <!-- Email field -->
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="input-field" 
+                                   placeholder="Enter your email" required
+                                   aria-required="true" aria-describedby="email-hint">
+                            <div id="email-hint" class="input-hint">We'll send you a confirmation email</div>
+                        </div>
+                        
+                        <!-- Password field -->
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <div class="password-wrapper">
+                                <input type="password" id="password" name="password" class="input-field" 
+                                       placeholder="Create a password" required minlength="8"
+                                       aria-required="true" aria-describedby="password-hint">
+                            </div>
+                            <div id="password-hint" class="input-hint">At least 8 characters</div>
+                            <div class="password-strength">
+                                <div class="strength-meter">
+                                    <div class="strength-fill" style="width: 30%"></div>
+                                </div>
+                                <span class="strength-text">Password strength: <span class="strength-value">Weak</span></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Date of Birth -->
+                        <div class="input-group">
+                            <label for="dob-month">What is your date of birth?</label>
+                            <div class="dob-inputs">
+                                <select id="dob-month" name="dob-month" class="select-field" required aria-required="true">
+                                    <option value="">Month</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                                <select id="dob-day" name="dob-day" class="select-field" required aria-required="true">
+                                    <option value="">Day</option>
+                                    <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                                    <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                                    <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+                                    <option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                                    <option value="13">13</option><option value="14">14</option><option value="15">15</option>
+                                    <option value="16">16</option><option value="17">17</option><option value="18">18</option>
+                                    <option value="19">19</option><option value="20">20</option><option value="21">21</option>
+                                    <option value="22">22</option><option value="23">23</option><option value="24">24</option>
+                                    <option value="25">25</option><option value="26">26</option><option value="27">27</option>
+                                    <option value="28">28</option><option value="29">29</option><option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                <select id="dob-year" name="dob-year" class="select-field" required aria-required="true">
+                                    <option value="">Year</option>
+                                    <option value="2025">2025</option><option value="2024">2024</option>
+                                    <option value="2023">2023</option><option value="2022">2022</option>
+                                    <option value="2021">2021</option><option value="2020">2020</option>
+                                    <option value="2019">2019</option><option value="2018">2018</option>
+                                    <option value="2017">2017</option><option value="2016">2016</option>
+                                    <option value="2015">2015</option><option value="2014">2014</option>
+                                    <option value="2013">2013</option><option value="2012">2012</option>
+                                    <option value="2011">2011</option><option value="2010">2010</option>
+                                    <option value="2009">2009</option><option value="2008">2008</option>
+                                    <option value="2007">2007</option><option value="2006">2006</option>
+                                    <option value="2005">2005</option><option value="2004">2004</option>
+                                    <option value="2003">2003</option><option value="2002">2002</option>
+                                    <option value="2001">2001</option><option value="2000">2000</option>
+                                </select>
+                            </div>
+                            <div class="input-hint">You need to be at least 13 years old</div>
+                        </div>
+                    </div>
+
+                    <!-- Class code option -->
+                    <div class="class-code-section">
+                        <details class="class-code-details">
+                            <summary class="class-code-toggle">I have a class code</summary>
+                            <div class="class-code-input">
+                                <input type="text" id="class-code" name="class-code" 
+                                       class="input-field" placeholder="Enter class code">
+                                <div class="input-hint">Join your teacher's class</div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Terms and Privacy -->
+                    <div class="terms-notice">
+                        <p>By signing up, you agree to our <a href="#" class="terms-link">Terms of use</a> and <a href="#" class="privacy-link">Privacy Policy</a>.</p>
+                        <p>We'll send you email notifications about your progress and new features.</p>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="signup-button" aria-label="Create account">
+                        Create account
+                    </button>
+
+                    <!-- Social login options -->
+                    <div class="social-login">
+                        <p class="divider">Or sign up with</p>
+                        <div class="social-buttons">
+                            <button type="button" class="social-button google-button" aria-label="Sign up with Google">
+                                <img src="../images/images (6).jfif" alt="Google logo">
+                                Continue with Google
+                            </button>
+                            <button type="button" class="social-button apple-button" aria-label="Sign up with Apple">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple logo">
+                                Continue with Apple
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Already have an account -->
+                    <div class="login-link-section">
+                        <p>Already have an account? <a href="./Login/login.html" class="login-link">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content-wrapper">
+            <div class="mission-section">
+                <p class="mission-text">Our mission is to provide a free, world-class education to anyone, anywhere.</p>
+                <p class="nonprofit-info">Khan Academy is a 501(c)(3) nonprofit organization. <a href="./Donate/donate.html" class="donate-link">Donate</a> or <a href="#" class="volunteer-link">volunteer</a> today!</p>
+            </div>
+
+            <div class="footer-links-columns">
+                <!-- About Column -->
+                <div class="footer-col">
+                    <h4 class="col-heading">About</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">News</a></li>
+                        <li><a href="#" class="footer-link">Impact ↗</a></li>
+                        <li><a href="#" class="footer-link">Our team</a></li>
+                        <li><a href="#" class="footer-link">Our interns</a></li>
+                        <li><a href="#" class="footer-link">Our content specialists</a></li>
+                        <li><a href="#" class="footer-link">Our leadership</a></li>
+                        <li><a href="#" class="footer-link">Our supporters</a></li>
+                        <li><a href="#" class="footer-link">Our contributors</a></li>
+                        <li><a href="#" class="footer-link">Our finances</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Internships</a></li>
+                        <li><a href="#" class="footer-link">Cookie Preferences</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-col">
+                    <h4 class="col-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Help center</a></li>
+                        <li><a href="#" class="footer-link">Support community</a></li>
+                        <li><a href="#" class="footer-link">Share your story</a></li>
+                        <li><a href="#" class="footer-link">Press</a></li>
+                        <li class="app-links">
+                            <p class="download-text">Download our apps</p>
+                            <a href="#" class="app-store-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" width="120">
+                            </a>
+                            <a href="#" class="play-store-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" width="135">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Courses Column -->
+                <div class="footer-col courses-col">
+                    <h4 class="col-heading">Courses</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Math: Pre-K - 8th grade</a></li>
+                        <li><a href="#" class="footer-link">Math: High school & college</a></li>
+                        <li><a href="#" class="footer-link">Math: Get ready courses</a></li>
+                        <li><a href="#" class="footer-link">Math: Eureka Math-aligned</a></li>
+                        <li><a href="#" class="footer-link">Math: Eureka Math Squared-aligned</a></li>
+                        <li><a href="#" class="footer-link">Test prep</a></li>
+                        <li><a href="#" class="footer-link">English language arts (ELA)</a></li>
+                        <li><a href="#" class="footer-link">Science</a></li>
+                        <li><a href="#" class="footer-link">Social studies</a></li>
+                        <li><a href="#" class="footer-link">Economics</a></li>
+                        <li><a href="#" class="footer-link">Computing</a></li>
+                        <li><a href="#" class="footer-link">Life skills</a></li>
+                        <li><a href="#" class="footer-link">Partner courses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom-bar">
+            <div class="language-country-selector">
+                <div class="language-selector">
+                    <span class="selector-label">Language:</span>
+                    <select class="language-dropdown" aria-label="Select language">
+                        <option value="en" selected>English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="pt">Português</option>
+                    </select>
+                </div>
+                
+                <div class="country-selector">
+                    <span class="selector-label">Country:</span>
+                    <div class="country-flags">
+                        <a href="#" class="flag-item" aria-label="United States">
+                            <img src="../images/us-flag.png" alt="US flag" width="20">
+                            <span>U.S.</span>
+                        </a>
+                        <a href="#" class="flag-item" aria-label="India">
+                            <img src="../images/india-flag.png" alt="India flag" width="20">
+                            <span>India</span>
+                        </a>
+                        <a href="#" class="flag-item" aria-label="Mexico">
+                            <img src="../images/mexico-flag.png" alt="Mexico flag" width="20">
+                            <span>Mexico</span>
+                        </a>
+                        <a href="#" class="flag-item" aria-label="Brazil">
+                            <img src="../images/brazil-flag.png" alt="Brazil flag" width="20">
+                            <span>Brazil</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-legal">
+                <div class="legal-links">
+                    <span class="copyright">© 2025 Khan Academy</span>
+                    <a href="#" class="legal-link">Terms of use</a>
+                    <a href="#" class="legal-link">Privacy Policy</a>
+                    <a href="#" class="legal-link">Cookie Notice</a>
+                    <a href="#" class="legal-link">Accessibility Statement</a>
+                </div>
+                
+              <div class="social-icons" aria-label="Social links">
+    <a href="https://www.facebook.com/khanacademy" class="social-icon" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook">
+    </a>
+    <a href="https://instagram.com/khanacademy" class="social-icon" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+    <a href="https://twitter.com/khanacademy" class="social-icon" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter">
+    </a>
+   
+</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

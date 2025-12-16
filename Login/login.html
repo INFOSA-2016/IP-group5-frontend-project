@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - Khan Academy | Free Online Courses, Lessons & Practice</title>
+    <meta name="description" content="Log in to Khan Academy to access free courses, track your progress, and continue learning">
+    <meta name="theme-color" content="#1865f2">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+    
+    <div class="login-container" role="main">
+        <!-- Left side image -->
+        <div class="login-left">
+            <div class="left-content">
+                <div class="welcome-message">
+                    <h2>Welcome back!</h2>
+                    <p>Continue your learning journey with personalized lessons and track your progress.</p>
+                </div>
+                <img src="../images/images.jfif" width="800" height="800" alt="Students learning together" class="login-illustration">
+                <div class="left-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">📚</span>
+                        <span>Access all courses</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📊</span>
+                        <span>Track your progress</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎯</span>
+                        <span>Personalized recommendations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side form -->
+        <div class="login-right" id="main-content">
+            <div class="login-header">
+                <a href="../index.html" class="back-link" aria-label="Go back to home">
+                    ← Back to Khan Academy
+                </a>
+                <div class="logo">
+                    <span class="logo-icon">⬢</span>
+                    <span class="logo-text">Khan Academy</span>
+                </div>
+            </div>
+            
+            <div class="form-container">
+                <h1>Log in</h1>
+                <p class="subtitle">Access your personalized learning dashboard</p>
+
+                <!-- Social login buttons -->
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google" aria-label="Log in with Google">
+                        <img src="../images/images (6).jfif" alt="Google logo" width="40" height="30">
+                        Continue with Google
+                    </button>
+                    <button type="button" class="social-btn clever" aria-label="Log in with Clever">
+                        <img src="../images/images (4).png" alt="Clever logo" width="100" height="100">
+                        Continue with Clever
+                    </button>
+                    <button type="button" class="social-btn facebook" aria-label="Log in with Facebook">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook logo" width="20" height="20">
+                        Continue with Facebook
+                    </button>
+                    <button type="button" class="social-btn apple" aria-label="Log in with Apple">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple logo" width="20" height="20">
+                        Continue with Apple
+                    </button>
+                    <button type="button" class="social-btn microsoft" aria-label="Log in with Microsoft">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft logo" width="20" height="20">
+                        Continue with Microsoft
+                    </button>
+                </div>
+
+                <div class="divider">
+                    <span>or</span>
+                </div>
+
+                <!-- Login form -->
+                <form class="login-form" id="login-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email or username *</label>
+                        <input type="text" id="email" name="email" class="form-input" 
+                               placeholder="Enter your email or username" required
+                               aria-required="true" aria-describedby="email-hint">
+                        <div id="email-hint" class="input-hint">Enter the email or username you used to sign up</div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="password-header">
+                            <label for="password">Password *</label>
+                            <a href="./forgot-password.html" class="forgot-password">Forgot password?</a>
+                        </div>
+                        <div class="password-wrapper">
+                            <input type="password" id="password" name="password" class="form-input" 
+                                   placeholder="Enter your password" required minlength="8"
+                                   aria-required="true" aria-describedby="password-hint">
+                            <button type="button" class="toggle-password" aria-label="Show password">
+                                👁️
+                            </button>
+                        </div>
+                        <div id="password-hint" class="input-hint">At least 8 characters</div>
+                    </div>
+
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me on this device</label>
+                    </div>
+
+                    <button type="submit" class="login-btn" aria-label="Log in to your account">
+                        <a href="../Login/login.html">Log in</a>
+      
+                    </button>
+                </form>
+
+                <div class="signup-section">
+                    <p class="signup-text">Don't have an account? <a href="../signup/signup.html" class="signup-link">Sign up</a></p>
+                    <p class="guest-text">Or continue as a <a href="#" class="guest-link">guest</a></p>
+                </div>
+
+                <div class="help-links">
+                    <a href="#" class="help-link">Having trouble logging in?</a>
+                    <a href="#" class="help-link">Need help signing in as a teacher?</a>
+                    <a href="#" class="help-link">Parent or guardian login help</a>
+                </div>
+            </div>
+            
+            <div class="security-notice">
+                <span class="lock-icon">🔒</span>
+                <span>Your information is secure and encrypted</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Footer Section -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content-wrapper">
+            <div class="mission-section">
+                <p class="mission-text">Our mission is to provide a free, world-class education to anyone, anywhere.</p>
+                <p class="nonprofit-info">Khan Academy is a 501(c)(3) nonprofit organization. <a href="../Donate/donate.html" class="donate-link">Donate</a> or <a href="#" class="volunteer-link">volunteer</a> today!</p>
+            </div>
+
+            <div class="footer-links-columns">
+                <!-- About Column -->
+                <div class="footer-col">
+                    <h4 class="col-heading">About</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">News</a></li>
+                        <li><a href="#" class="footer-link">Impact ↗</a></li>
+                        <li><a href="#" class="footer-link">Our team</a></li>
+                        <li><a href="#" class="footer-link">Our interns</a></li>
+                        <li><a href="#" class="footer-link">Our content specialists</a></li>
+                        <li><a href="#" class="footer-link">Our leadership</a></li>
+                        <li><a href="#" class="footer-link">Our supporters</a></li>
+                        <li><a href="#" class="footer-link">Our contributors</a></li>
+                        <li><a href="#" class="footer-link">Our finances</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Internships</a></li>
+                        <li><a href="#" class="footer-link">Cookie Preferences</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-col">
+                    <h4 class="col-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Help center</a></li>
+                        <li><a href="#" class="footer-link">Support community</a></li>
+                        <li><a href="#" class="footer-link">Share your story</a></li>
+                        <li><a href="#" class="footer-link">Press</a></li>
+                        <li class="app-links">
+                            <p class="download-text">Download our apps</p>
+                            <a href="#" class="app-store-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" width="120">
+                            </a>
+                            <a href="#" class="play-store-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" width="135">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Courses Column -->
+                <div class="footer-col courses-col">
+                    <h4 class="col-heading">Courses</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Math: Pre-K - 8th grade</a></li>
+                        <li><a href="#" class="footer-link">Math: High school & college</a></li>
+                        <li><a href="#" class="footer-link">Math: Get ready courses</a></li>
+                        <li><a href="#" class="footer-link">Math: Eureka Math-aligned</a></li>
+                        <li><a href="#" class="footer-link">Math: Eureka Math Squared-aligned</a></li>
+                        <li><a href="#" class="footer-link">Test prep</a></li>
+                        <li><a href="#" class="footer-link">English language arts (ELA)</a></li>
+                        <li><a href="#" class="footer-link">Science</a></li>
+                        <li><a href="#" class="footer-link">Social studies</a></li>
+                        <li><a href="#" class="footer-link">Economics</a></li>
+                        <li><a href="#" class="footer-link">Computing</a></li>
+                        <li><a href="#" class="footer-link">Life skills</a></li>
+                        <li><a href="#" class="footer-link">Partner courses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom-bar">
+            <div class="language-country-selector">
+                <div class="language-selector">
+                    <span class="selector-label">Language:</span>
+                    <select class="language-dropdown" aria-label="Select language">
+                        <option value="en" selected>English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="pt">Português</option>
+                    </select>
+                </div>
+                
+                <div class="country-selector">
+                    <span class="selector-label">Country:</span>
+                    <div class="country-flags">
+                        <a href="#" class="flag-item" aria-label="United States">
+                            <img src="../images/us-flag.png" alt="US flag" width="20">
+                            <span>U.S.</span>
+                        </a>
+                        <a href="#" class="flag-item" aria-label="India">
+                            <img src="../images/india-flag.png" alt="India flag" width="20">
+                            <span>India</span>
+                        </a>
+                        <a href="#" class="flag-item" aria-label="Mexico">
+                            <img src="../images/mexico-flag.png" alt="Mexico flag" width="20">
+                            <span>Mexico</span>
+                        </a>
+                        <a href="#" class="flag-item" aria-label="Brazil">
+                            <img src="../images/brazil-flag.png" alt="Brazil flag" width="20">
+                            <span>Brazil</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-legal">
+                <div class="legal-links">
+                    <span class="copyright">© 2025 Khan Academy</span>
+                    <a href="#" class="legal-link">Terms of use</a>
+                    <a href="#" class="legal-link">Privacy Policy</a>
+                    <a href="#" class="legal-link">Cookie Notice</a>
+                    <a href="#" class="legal-link">Accessibility Statement</a>
+                </div>
+                
+                <div class="social-icons" aria-label="Social media links">
+                    <a href="https://www.facebook.com/khanacademy" class="social-icon" target="_blank" aria-label="Facebook">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook">
+                    </a>
+                    <a href="https://instagram.com/khanacademy" class="social-icon" target="_blank" aria-label="Instagram">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com/khanacademy" class="social-icon" target="_blank" aria-label="Twitter">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://youtube.com/khanacademy" class="social-icon" target="_blank" aria-label="YouTube">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
