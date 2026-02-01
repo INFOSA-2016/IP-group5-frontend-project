@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[46841],{
+
+/***/ 907978:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var bxp,axp;bxp=function(a,b){return Zwp(()=>{const c=a.get();$wp(()=>b,[]);return axp(c,{})})};__c.cxp=function(){return(a,b)=>b};axp=__webpack_require__(296713).jsx;var Zwp=__webpack_require__(270531).PA;var $wp=__webpack_require__(978109).useEffect;var dxp,fxp;dxp=__webpack_require__(186901);__c.exp=dxp.sH;fxp=dxp.XI;__c.gxp=class{static G(a){__c.M(a,{resolve:fxp})}resolve(a,b){a!==this.key&&(this.key=a,this.OG=b(),this.view.set(this.OG.Qfn()??(()=>null)))}Eeg(a,b){this.OG?.Eeg(a,b)}constructor(a){this.configuration=a;this.key=(__c.gxp.G(this),{});this.view=__c.exp.box(()=>null);this.ph=()=>this.OG?.ph?.();this.nHm=bxp(this.view,this.ph)}};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/c8c836a704d4d421.js.map

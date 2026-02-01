@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[31021],{
+
+/***/ 891286:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(393812);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var Loo=__c.Loo;
+var tso=function(a){return a.zfh||a.Fbe.length===0||a.Fbe.every(b=>!b())},uso=function(a,b){return a.Su()?b==="after-media-payment-content":b==="after-footer"},wso=function(a,b,c,d,e,f){var g=vso.find(h=>b.dlj.has(h)?(h=b.dlj.get(h),h?.xHa({fileType:e,O$:f})&&__c.Moo[d].has(h.id)):!1);if(g!=null&&(g=b.dlj.get(g),g!=null&&uso(a,c)))return g},vso=[2,4,5,0,3,1],xso=class{static G(a){__c.M(a,{Pco:__c.Koo.ref,Zeh:__c.Joo})}get Zeh(){return this.Pco!==2}constructor(){this.dlj=(xso.G(this),__c.Koo.map());
+this.Fbe=__c.Koo.array([],{deep:!1});this.UUm=new Map;this.zfh=!1}},yso=class{static G(a){__c.M(a,{cCp:Loo,ied:Loo,wJg:Loo,n$l:Loo,hzf:Loo})}reset(a){this.n$l(a,!1)}Dd(a,b){this.hzf(a,b.Ra);this.n$l(a,!0)}cCp(a,b,c){uso(this,c)&&(a.Pco=b?.id)}ied(a,b){a.dlj.set(b.id,b)}wJg(a,b){a.Fbe.push(b)}n$l(a,b){a.zfh=b}hzf(a,b){const c=this.g$g();a.UUm.set(b,c);this.Nc.hzf({sg:b,kdb:c})}hIe(a,b,c){this.Nc.hIe({sg:b,kdb:a.UUm.get(b)||"",Ek:c})}constructor(a,b=__c.rc,c=__c.Wb){this.Nc=a;this.Su=b;this.g$g=c;yso.G(this)}},
+zso=__webpack_require__(296713).jsx;var Aso=__webpack_require__(270531).PA;var Bso=__webpack_require__(978109).useEffect;var Cso=__webpack_require__(186901).EW;__c.Dso=class{ied(a){this.L.ied(this.store,a)}wJg(a){this.L.wJg(this.store,a)}constructor(a,b){this.store=a;this.L=b}};__c.Dso.prototype.iIj=__c.ca(1221);__c.Eso=({Nc:a})=>{const b=new xso;a=new yso(a);return{Cfa:new __c.Dso(b,a),Y$a:a,XPa:b}};__c.Fso=({Y$a:a,XPa:b,location:c,pMn:d,WKn:e,endpoint:f})=>{const g=Cso(()=>wso(a,b,c,f,d(),e())),h=Cso(()=>g.get()?.create());return Aso(({requestClose:k})=>{const l=g.get(),n=h.get(),p=tso(b);Bso(()=>{p&&(a.cCp(b,n?l:void 0,c),n&&l&&a.Dd(b,l))},[n,p,l]);return l&&n&&p?zso(n,{requestClose:k}):null})};__c.Gso={R$u:__c.Fso,zrk:__c.Eso};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/de17be9ae42579e1.js.map

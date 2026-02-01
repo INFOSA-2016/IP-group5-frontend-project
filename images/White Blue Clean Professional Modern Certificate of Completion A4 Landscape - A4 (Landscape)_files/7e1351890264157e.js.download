@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[39097],{
+
+/***/ 154798:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(270419);__web_req__(719129);__web_req__(726674);__web_req__(695227);__web_req__(566092);__web_req__(986461);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {__c.fOm=__webpack_require__(245307).Fm;__c.gOm=__webpack_require__(75402)._;var hOm;hOm=__webpack_require__(186901);__c.iOm=hOm.EW;__c.jOm=hOm.h5;__c.kOm=hOm.mJ;__c.lOm=hOm.sH;__c.mOm=hOm.XI;__c.nOm=class{Wyf(a){this.xa.l4(__c.eOm.eventType,__c.eOm.La(a))}constructor(a){this.xa=a}};__c.nOm.prototype.H0h=__c.ca(1178);__c.oOm=class{Wyf(a,b,c,d,e){const {endpoint:f,formData:g={}}=a;this.client.Wyf({endpoint:f,E9n:b,ekl:c,Ovk:d,source:this.source,ha:this.ha,Gb:e,...g})}constructor({xa:a,source:b,ha:c}){this.client=new __c.nOm(a);this.xa=a;this.source=b;this.ha=c}};__c.oOm.prototype.H0h=__c.ca(1177);__c.pOm=(a,b)=>{if(a&&b&&a.length&&b!==1)return a.length===b?"all":a.join()};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/7e1351890264157e.js.map

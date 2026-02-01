@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[30995],{
+
+/***/ 574294:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(416291);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var To=__c.To;var s4s=__c.db(()=>[2,3]);__c.t4s=__c.H(()=>({XG:__c.Ya(13,__c.VRp),types:__c.Ya(14,__c.WRp),uWv:__c.Oo(15),gVv:__c.Oo(16),Jav:__c.Po(17),M8v:To(6),QYb:To(7),nB:To(8),l_u:__c.Xa(9,s4s),abk:To(10),continuation:__c.T(11),limit:__c.Lo(12,100)}));__c.u4s=__c.H(()=>({id:__c.S("id",1),nB:To("orderItems",6),nAs:__c.Uo("issueRefund",2),K$:__c.S("cancelReason",3),SWq:__c.T("cancelComment",4),force:__c.Uo("force",5)}));
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/3b382a5abd18df84.js.map

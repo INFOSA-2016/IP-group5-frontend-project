@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[60901],{
+
+/***/ 982834:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(201831);__web_req__(932178);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var sfp;var qfp,rfp,tfp;qfp=__webpack_require__(296713);rfp=qfp.Fragment;sfp=__c.sfp=qfp.jsx;tfp=qfp.jsxs;var ufp=__webpack_require__,vfp=ufp(208463),wfp=ufp.n_x(vfp)();var xfp=__webpack_require__(978109).Component;__c.yfp=({rMa:a,color:b})=>sfp("span",{style:{color:b},className:"PkesNA",dangerouslySetInnerHTML:typeof a==="string"?{__html:a}:void 0,children:typeof a==="string"?void 0:a});
+__c.zfp=class extends xfp{componentDidMount(){this.props.onLoad&&this.props.onLoad()}render(){const a=this.props.title,b=this.props.description,c=this.props.Au,d=this.props.onConnect,e=this.props.successMessage,f=this.props.errorMessage,g=this.props.Wnn,h=this.props.w$a,k=this.props.xA,l=this.props.children;return sfp("div",{className:"FRYsjg iL26JQ",children:sfp(__c.$D,{content:tfp(rfp,{children:[a&&sfp(__c.R,{size:"xlarge",alignment:"center",className:"XuubnA",children:a}),h&&sfp("div",{className:"xzkfww XuubnA",
+children:sfp("span",{className:"dMUhAg",children:h})}),b&&sfp("div",{className:"_llkSw XuubnA",children:b})]}),footer:tfp(rfp,{children:[e&&sfp(__c.Yk,{className:"XuubnA",tone:"positive",size:"small",children:e}),f&&(g?f:sfp(__c.Yk,{className:"XuubnA",tone:"critical",size:"small",children:f})),sfp(__c.pfp,{className:wfp("XuubnA","J3WEeg"),onClick:d,iHh:k?"loading":"initial",children:c}),l]})})})}};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/d991cf2dc9376198.js.map

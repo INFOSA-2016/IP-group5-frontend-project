@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[47483],{
+
+/***/ 79343:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(302616);__web_req__(726674);__web_req__(755985);__web_req__(652003);__web_req__(728159);__web_req__(932178);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var scp;scp=__webpack_require__(296713);__c.tcp=scp.Fragment;__c.BO=scp.jsx;__c.ucp=scp.jsxs;__c.vcp=__webpack_require__(270531).PA;__c.wcp=__webpack_require__(978109).PureComponent;__c.xcp=({Tf:a,eb:b})=>{if(__c.JJk)return(0,__c.vcp)(({Npa:c,i_a:d})=>{c=a.vyk(c,d);c=__c.m(c,"MediaPaymentForm: Tried to render PriceSummary with undefined mediaLicensesState.priceSummaryState");return(0,__c.BO)(__c.OYn,{state:c,eb:b})})};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/43a076553e485413.js.map

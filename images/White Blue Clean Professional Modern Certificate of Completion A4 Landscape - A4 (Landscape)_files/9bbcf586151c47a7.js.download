@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[73170],{
+
+/***/ 85376:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(41608);__web_req__(859699);__web_req__(513283);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {__c.Ntj={NGs:function(a,b,c,d,e,f,g,h,k,l,n,p,q){const r=b.sKb,t=b.q4g,u=b.uHr,w=b.che,x=b.fhe,y=b.Xge;let z;b.tXc&&(z=__c.ues(c,d));return __c.qst({hp:f,errorService:g,yd:q,eb:k,X:c,user:a.user.id,brand:a.wb.brand.id,$Ii:z,sKb:r,q4g:t,che:w,fhe:x,Xge:y,p6c:new __c.Zst(c,e,g,h,void 0,__c.YJk(l.currency,g,u,void 0,n)),fib:p,ma:h})}};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/9bbcf586151c47a7.js.map

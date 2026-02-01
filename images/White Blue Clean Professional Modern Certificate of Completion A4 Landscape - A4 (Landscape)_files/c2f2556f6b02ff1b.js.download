@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[64887],{
+
+/***/ 213032:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(378020);__web_req__(951159);__web_req__(238686);__web_req__(46075);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var ZYC=__webpack_require__(245307).Fm;var $YC=__webpack_require__(296713),aZC=$YC.jsx,bZC=$YC.jsxs;var cZC=__webpack_require__(270531).PA;var dZC=__webpack_require__(978109),eZC=dZC.useCallback,fZC=dZC.useEffect,gZC=dZC.useMemo,hZC=dZC.useState;var iZC;iZC=__c.Rb("7015d877",!1);
+__c.wLz={y2p:cZC(({Ne:a,X:b,N:c,Ia:d,qO:e,Tb:f,LK:g=__c.Co(),mnd:h=__c.pz.mnd,yJ:k,aac:l,bMl:n,Z7:p,x_p:q})=>{const r=h({id:b.id,extension:b.extension,ia:{content:b.id,sg:"designshare",medium:"link2",source:"sharebutton"}}),{P:t,kb:u}=gZC(()=>{const z=d.Ed("ui.document_link_copier");return{P:z,kb:()=>z.kb("copy_share_link",{yb:{name:"copy_share_link",type:e}})}},[d,e]),[w,x]=hZC(r);fZC(()=>{iZC?p.$Pd(r).then(ZYC.wrap(z=>{x(z)})):x(r)},[r,p]);const y=eZC(()=>{const {Xtb:z,Cca:A}=__c.VAk(a);c.Lia({ha:b.id,
+va:b.va,Sw:__c.gH([...b.QD]),medium:"link",location:e,Cca:A,Xtb:z})},[c,b,e,a]);h=eZC(()=>{y();n&&__c.IAk(a)?n():k?.(w);l?.()},[y,a,n,l,k,w]);return aZC("div",{className:"OEgypA",children:bZC(__c.dd,{spacing:"1u",children:[aZC(__c.gFk,{url:w,aac:h,variant:"primary",Tb:f,P:t,kb:u,LK:g}),q&&aZC(q,{})]})})})};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/c2f2556f6b02ff1b.js.map

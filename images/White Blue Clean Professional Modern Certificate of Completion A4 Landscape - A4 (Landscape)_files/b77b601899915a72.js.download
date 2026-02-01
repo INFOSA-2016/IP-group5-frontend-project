@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[7150],{
+
+/***/ 270419:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(16816);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {__c.eOm={eventType:"publish_continue_clicked",La(a){return __c.yg({endpoint:a.endpoint,source:a.source,document_id:a.ha,is_payment_required:a.E9n,is_watermark_on:a.ekl,is_pdf_flattened:a.$8b,custom_range:a.Ovk,view_type:a.cX,autoplay_timing:a.aPq,transition_style:a.Rpu,web_style:a.fAu,file_type:a.fileType,format:a.format,style:a.style,limit_message_displayed:a.Tdo,refs:a.refs,license_types:a.Pml,message:a.message,compressed:a.SSg,size_changed:a.svf,settings_saved:a.Uwj,performance_context:a.Gb==null?
+void 0:__c.Ag(a.Gb),is_combined_image:a.TO,export_width_px:a.Nlc,export_height_px:a.Llc,include_notes:a.dD,is_separated_video:a.V5,compress_pdf:a.fN,is_pdf_password_protected:a.ZWb,ad_metadata:a.KEd==null?void 0:__c.sKm(a.KEd)})}};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/b77b601899915a72.js.map

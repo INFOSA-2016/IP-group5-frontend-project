@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[47762],{
+
+/***/ 22989:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(23667);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var eAt=__webpack_require__(296713).jsx;var fAt=__webpack_require__(978109).Component;var gAt=__webpack_require__(186901),hAt=gAt.h5,iAt=gAt.sH,jAt=gAt.XI;var kAt=__webpack_require__(277049)._;var lAt=__webpack_require__(269018)._;var mAt,nAt,oAt,pAt;__c.qAt=a=>b=>{hAt(()=>{const c=()=>eAt(pAt,{qa:b,onClose:d}),d=jAt(()=>{a.hy===c&&(a.hy=void 0)});a.hy=c})};
+new (mAt=class extends kAt{constructor(){super(pAt);nAt()}},(()=>{class a extends(oAt=fAt){static G(b){__c.M(b,{open:iAt.ref,oa:jAt})}render(){const b=this.qa;return eAt(__c.uq,{open:this.open,oa:this.oa,gk:this.props.onClose,children:c=>eAt(b,{...c})})}constructor(...b){super(...b);this.open=(pAt.G(this),!0);this.oa=()=>{this.open=!1};this.qa=({mode:c})=>eAt("div",{className:"_1OmKeA",children:eAt(this.props.qa,{onClose:this.oa,mode:c})})}}({c:[pAt,nAt]}=lAt(a,[],[__c.Nb],oAt))})(),mAt);
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/0af46dfea3e1bdbd.js.map
