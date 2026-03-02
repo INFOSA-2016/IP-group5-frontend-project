@@ -28,7 +28,7 @@ This project allowed our group to collaborate, practice front-end best practices
 
 | Name              | Role                         |
 | ----------------- | ---------------------------- |
-| Kenenisa Boru     | Front-End Developer / Lead   |
+| Kenenisa Boru     | fullstack-developer /leader  |
 | Lidia Guluma 2    | UI/UX Designer               |
 | Sisay Badhane 3   | HTML Developer               |
 | Kenenisa Gudeta 4 | CSS Developer                |
