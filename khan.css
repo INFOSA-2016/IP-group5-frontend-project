@@ -2441,15 +2441,3 @@ body {
     color: #9cb443; 
     font-size: 2.5rem;
 }
-
-.btn-primary {
-    background-color: #f7f7f7; 
-    border: 1px solid #ccc;
-    padding: 15px 20px;
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-   
-   
-}
