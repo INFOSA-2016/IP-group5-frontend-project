@@ -1,5 +1,9 @@
 # Khan Academy Front-End Project
 
+## 🌐 Live Demo
+
+**[View live site](https://khan-cat-07fddaacedamy.netlify.app/)**
+
 Welcome to our Khan Academy Front-End Group Project!
 
 This repository contains the code and resources for our front-end group project as part of the Khan Academy course. Our goal was to create a responsive, user-friendly web application while implementing modern HTML, CSS, and JavaScript practices.
